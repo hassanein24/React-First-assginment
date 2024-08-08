@@ -1,0 +1,23 @@
+/* HorizontalLineComponent.module.css */
+.container {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.paragraph {
+    margin-bottom: 10px;
+}
+
+.lineContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    border-top: 1px solid black; /* Adjust the thickness and color as needed */
+    position: relative;
+    top: 10px; /* Adjust the vertical position if needed */
+}
